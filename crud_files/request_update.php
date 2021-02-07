@@ -53,6 +53,7 @@ $res = json_decode($response);
             <td><input type="text" name="title" value="<?php echo  $res->title;?>"></td>
             <td><input type="text" name="author" value="<?php echo  $res->author;?>"></td>
             <td><input type="text" name="desc" value="<?php echo  $res->desc;?>"></td>
+            <input type="hidden" name="update_id" value="<?php echo  $res->id;?>">
             <td><input type="submit" name="submit" class="btn btn-primary btn-block" style="float:right;" value="Submit"></td>
             </tr>
         <?php  ?>

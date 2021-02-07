@@ -1,0 +1,22 @@
+{
+  "posts": [
+    {
+      "title": "C++ Programming",
+      "author": "Dheeru",
+      "desc": "Good for Programmers",
+      "id": 1
+    },
+    {
+      "title": "C Programming",
+      "author": "Daniel Pearl",
+      "desc": "I am Dheeru",
+      "id": 2
+    },
+    {
+      "title": "PHP Programming",
+      "author": "Mamaer",
+      "desc": "Good for Beginners",
+      "id": 3
+    }
+  ]
+}
